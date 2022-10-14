@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: absolute;
+    width: 1918px;
+    height: 935px;
+    background: #FFFFFF;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 936px;
+    background: #191718;
+}
+
+.sidebar__items {
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.sidebar__items p:hover {
+    color: #FFFFFF;
+    background: #5C5C5C;
+    cursor: pointer;
+}
+
+.sidebar__items p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #AAAAAA;
+    padding: 14px 0px 11px 16px;
+    border-bottom: 1px solid #5C5C5C;
+    margin: 0;
+}
+
+.content {
+    position: absolute;
+    right: 0;
+    width: 1768px;
+    height: 935px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+}
+
+.content__logo {
+    /* position: absolute; */
+    width: 310px;
+    height: 122px;
+    background-image: url(./image/logoNCC.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.content__body {
+    width: 1510px;
+    height: 210px;
+    background: #EFEFEF;
+    margin: 0px 0px 0px 129px;
+}
+
+.content__first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.content__first h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.content__first p {
+    width: 972px;
+    height: 95px;
+    margin: 18px 269px 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.content__second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    background: #FFFFFF;
+}
+
+.content__second--list {
+    width: 470px;
+    height: 252px;
+}
+
+.title h3 {
+    margin: 0px 0px 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.description {
+    display: flex;
+}
+
+.description__img {
+    margin-right: 16px;
+}
+
+.description__text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.content__footer {
+    position: absolute;
+    bottom: 0;
+    width: 1768px;
+    height: 79px;   
+}
+
+.content__footer p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+    border-top: 1px solid #DEDEDE;
+    padding: 30px 0px 30px 129px;
+    margin: 0;
+}
+
+
